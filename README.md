@@ -25,17 +25,17 @@ that manages pet adoptions, adopters, and adoption requests.
 
 ## setup structure
 -petadoption
-   -javafx-sdk-17.0.18
-     -src
-       -main.java
-       -DBConnection.java
-       -adopter.java
-       -adoptionRequest.java
-       -pet.java
-       -dbs.sql   
-       -ojdbc17.jar
-     -lib
-       -ojdbc17.jar
+      -javafx-sdk-17.0.18
+        -src
+          -main.java
+          -DBConnection.java
+          -adopter.java
+          -adoptionRequest.java
+          -pet.java
+          -dbs.sql   
+          -ojdbc17.jar
+        -lib
+          -ojdbc17.jar
        
 
 ### 2. Setup Database
