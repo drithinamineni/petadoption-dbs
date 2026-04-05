@@ -36,7 +36,7 @@ petadoption/
      - dbs.sql
      - ojdbc17.jar
    -lib/
-    └── ojdbc17.jar
+     - ojdbc17.jar
 ```
 
 
