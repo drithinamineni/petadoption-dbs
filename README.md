@@ -32,7 +32,7 @@ that manages pet adoptions, adopters, and adoption requests.
        -adopter.java
        -adoptionRequest.java
        -pet.java
-       -dbs.sql
+       -dbs.sql   
        -ojdbc17.jar
      -lib
        -ojdbc17.jar
