@@ -23,6 +23,21 @@ that manages pet adoptions, adopters, and adoption requests.
 - Oracle Database 23c Free
 - ojdbc17.jar
 
+## setup structure
+-petadoption
+   -javafx-sdk-17.0.18
+     -src
+       -main.java
+       -DBConnection.java
+       -adopter.java
+       -adoptionRequest.java
+       -pet.java
+       -dbs.sql
+       -ojdbc17.jar
+     -lib
+       -ojdbc17.jar
+       
+
 ### 2. Setup Database
 Open SQL Plus and run:
 sqlplus system/yourpassword@localhost:1521/FREEPDB1
