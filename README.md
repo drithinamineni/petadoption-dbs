@@ -8,6 +8,8 @@ that manages pet adoptions, adopters, and adoption requests.
 - View registered adopters
 - Submit adoption requests
 - Approve requests and mark pets as adopted
+- Medical Records for each pet
+- Bar graph analytics showing which breed and what age are most likely to be adopted
 
 ## Technologies Used
 - Java 17
@@ -43,17 +45,18 @@ petadoption/
 
 ### 2. Setup Database
 Open SQL Plus and run:
-sqlplus system/yourpassword@localhost:1521/FREEPDB1
+sqlplus system/yourpassword@localhost:1521/XEPDB1
 @dbs.sql
 
 ### 3. Compile
-javac --module-path /path/to/javafx/lib \
+cd /Users/drithi/Desktop/petadoption/src 
+javac --module-path /Users/drithi/Downloads/javafx-sdk-17.0.18/lib \
       --add-modules javafx.controls,javafx.fxml \
       -cp .:ojdbc17.jar \
-      DBConnection.java pet.java adopter.java adoptionRequest.java main.java
-
+      DBConnection.java pet.java adopter.java adoptionRequest.java medicalRecord.java main.java
+      
 ### 4. Run
-java --module-path /path/to/javafx/lib \
+java --module-path /Users/drithi/Downloads/javafx-sdk-17.0.18/lib \
      --add-modules javafx.controls,javafx.fxml \
      -cp .:ojdbc17.jar \
      main
